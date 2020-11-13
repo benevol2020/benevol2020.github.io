@@ -113,25 +113,64 @@
         <div class="col-lg-8 mx-auto my-4 text-justify">
           <div class="row my-4 mx-auto justify-content-center">
             <div class="col-lg-6 text-center">
-              <a href="https://www.uni-stuttgart.de/en/press/experts/Prof.-Dr.-Michael-Pradel/" target="_blank">
+              <a href="http://software-lab.org/people/Michael_Pradel.html" target="_blank">
                 <img class="img-fluid rounded-circle mb-3 col-lg-6" src="img/pradel.jpg" alt="Michaek Pradel">
               </a>
-              <a href="https://www.uni-stuttgart.de/en/press/experts/Prof.-Dr.-Michael-Pradel/" target="_blank">
+              <a href="http://software-lab.org/people/Michael_Pradel.html" target="_blank">
                 <h5>Prof. Michael Pradel</h5>
                 <p class="font-weight-light mb-0">
                   University of Stuttgart
                 </p>
               </a>
               <br />
+              <a data-toggle="modal" href="#secondkeynote">
               <p class="font-weight-light lato">
-                Title: To be determined
+                Neural Software Analysis: Learning Developer Tools from Code
               </p>
+              </a>
             </div>
           </div>
         </div>
       </div>
     </div>
   </section>
+
+  <div class="modal fade" id="secondkeynote" tabindex="-1" role="dialog" aria-labelledby="secondkeynoteTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="secondkeynoteTitle">Neural Software Analysis: Learning Developer Tools from Code</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <h4>Abstract</h4>
+          <p class="text-justify">
+            Many software development problems can be addressed by program analysis
+            tools, which traditionally are based on precise, logical reasoning and
+            heuristics to ensure that the tools are practical. Recent work has shown
+            tremendous success through an alternative way of creating developer
+            tools, which we call "neural software analysis". The key idea is to
+            train a neural machine learning model on numerous code examples, which,
+            once trained, makes predictions about previously unseen code. In
+            contrast to traditional program analysis, neural software analysis
+            naturally handles fuzzy information, such as coding conventions and
+            natural language embedded in code, without relying on manually encoded
+            heuristics.<br /><br /> This talk presents the overall idea of neural software
+            analysis and when to (not) use it. We then present two examples of
+            neural software analysis: (1) DeepBugs, a learned bug detector that
+            classifies a given piece of code as correct or buggy. (2) TypeWriter, a
+            learned type predictor that automatically adds otherwise missing type
+            annotations into code written in a dynamically typed language. Both
+            analyses complement and outperform traditional analyses and are
+            successfully used in industrial practice.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <section class="page-section" id="program">
     <div class="container">
