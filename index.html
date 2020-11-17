@@ -109,11 +109,13 @@
     <div class="container">
       <h2 class="text-center mt-0">Guest speakers</h2>
       <hr class="divider my-4">
+      <div class="row justify-content-center">
+        <h3 class="text-center mt-0">Keynotes</h3>
+      </div>
       <div class="row">
         <div class="col-lg-6 mx-auto my-4 text-justify">
           <div class="row my-4 mx-auto justify-content-center">
             <div class="col-lg-9 text-center">
-              <h3 class="mt-0">Keynote</h3><br /><br />
               <a href="http://software-lab.org/people/Michael_Pradel.html" target="_blank">
                 <img class="img-fluid rounded-circle mb-3 col-lg-6" src="img/pradel.jpg" alt="Michaek Pradel">
               </a>
@@ -136,6 +138,29 @@
         <div class="col-lg-6 mx-auto my-4 text-justify">
           <div class="row my-4 mx-auto justify-content-center">
             <div class="col-lg-9 text-center">
+              <a href="https://softwarediversity.eu/contact/" target="_blank">
+                <img class="img-fluid rounded-circle mb-3 col-lg-6" src="img/benoit.jpg" alt="Benoit Baudry">
+              </a>
+              <a href="https://softwarediversity.eu/contact/" target="_blank">
+                <h5>Prof. Benoit Baudry</h5>
+                <p class="font-weight-light mb-0">
+                  KTH Royal Institute of Technology 
+                </p>
+              </a>
+              <br />
+              <a data-toggle="modal" href="#secondkeynote">
+              <p class="font-weight-light lato">
+                How much code do we need?
+              </p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 mx-auto my-4 text-justify">
+          <div class="row my-4 mx-auto justify-content-center">
+            <div class="col-lg-9 text-center">
               <h3 class="text-center mt-0">Ask me Anything</h3><br /><br />
               <a href="https://www.linkedin.com/in/john-micco-b0092b1/" target="_blank">
                 <img class="img-fluid rounded-circle mb-3 col-lg-6" src="img/john.jpg" alt="John Micco">
@@ -147,13 +172,14 @@
                 </p>
               </a>
               <br />
-              <a data-toggle="modal" href="#secondkeynote">
+              <a data-toggle="modal" href="#thirdkeynote">
               <p class="font-weight-light lato">
                 About John Micco
               </p>
               </a>
             </div>
           </div>
+        </div>
       </div>
     </div>
   </section>
@@ -202,12 +228,38 @@
     <div class="modal-dialog modal-lg" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="secondkeynoteTitle">About John Micco</h5>
+          <h5 class="modal-title" id="secondkeynoteTitle">How much code do we need?</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
         <div class="modal-body">
+          <h4>Biography</h4>
+          <p class="text-justify">
+            Benoit Baudry is a Professor in Software Technology at the KTH Royal Institute of Technology, and the director of the CASTOR software research 
+            center. He received his PhD in 2003 from the University of Rennes, France and was a research scientist at INRIA from 2004 to 2017. His research 
+            interests include automated software engineering, software diversity and software testing. In 2017, he received a 
+            <a href="https://wasp-sweden.org/research/wasp-recruited-faculty/" target="_blank">WASP endowed chair</a> to support 
+            his research at KTH, and in 2018 he received the <a href="https://www.inria.fr/en/remise-du-prix-cnil-inria" target="_blank">CNIL-INRIA “Privacy 
+            Protection” Award</a> for his work on browser fingerprinting.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="thirdkeynote" tabindex="-1" role="dialog" aria-labelledby="thirdkeynoteTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="thirdkeynoteTitle">Ask me anything</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <h4>Biography</h4>
           <p class="text-justify">
             John is a Cloud Transformation Architect at VMWare working on Continuous Integration / Delivery for VMWare’s flagship vSphere product line.  
             He has more than 15 years of experience working on CI/CD systems at Mathworks, Google and Netflix. He has given several keynote addresses at 
